@@ -1,110 +1,71 @@
-```markdown
-# 📘 Data Science Internship Assignments
+# Data Science Internship Assignments
 
-Welcome to my Data Science and Machine Learning Internship repository!  
-This contains hands-on assignments, mini-projects, and problem-solving tasks completed using Python, NumPy, Pandas, Matplotlib, Seaborn, and SQL.
+This repository contains a series of assignments and mini-projects completed during my Data Science internship. Each task is designed to build foundational and practical skills in Python programming, data analysis, NumPy, Pandas, visualization, and basic machine learning.
 
 ---
 
-## Folder Structure
+## Repository Structure
 
-```
-
-Data Science Assignment/
-│
-├── assignment\_1\_datascience.py
-├── assignment\_2\_datascience.py
-├── assignment\_3\_numpy.py
-├── assignment\_4\_regression\_models/
-│   ├── beer\_consumption\_model.py
-│   ├── housing\_price\_prediction.py
-│   ├── medical\_cost\_estimator.py
-│   └── startup\_profit\_regression.py
-│
-├── stock\_analysis.py
-│
-├── unit_3_assignment/
-│   ├── problem3\_flood\_prop.py
-│   └── kerala.csv
-│
-└── README.md
-
-````
+Each assignment is saved as a separate Python script or notebook. CSV files (if required) are stored inside relevant subfolders.
 
 ---
 
-## Assignment Overview
+## Tools & Libraries Used
 
-### Assignment 1 – NumPy Matrix Operations
-- Matrix multiplication (MxN × NxA)
-- Element-wise checks with `isdigit()`, `islower()`, `isupper()`
-- NumPy reshaping and subtraction
-- Element-wise difference of 3×3 matrices
-
-### Assignment 2 – Data Cleaning and EDA
-- Removing duplicates
-- Adding key metrics like total sales, profits
-- Filtering, sorting, and generating visual dashboards using Pandas and Matplotlib
-
-### Assignment 3 – NumPy + Matplotlib
-- Creating and subtracting NumPy arrays
-- Reshaping arrays
-- Plotting results
-- Handling missing values
-
-### Assignment 4 – Regression Projects
-Includes four different regression models:
-1. **Beer Consumption Prediction**  
-2. **California Housing Price Prediction**  
-3. **Medical Cost Estimation using Age, BMI, Smoker**  
-4. **Startup Profit Prediction using Linear, Ridge, Lasso Regression**
-
----
-
-## Project – Stock Market Analysis
-
-Analyzing stock data for:
-- Apple (AAPL)
-- Google (GOOGL)
-- Amazon (AMZN)
-- Microsoft (MSFT)
-
-**Tasks:**
-- Read data using `yfinance`
-- Calculate moving averages
-- Daily returns and trend classification
-- Pie chart visualization of trends
-- Heatmap of correlation across stocks
-
----
-
-## Unit 3 – Kerala Flood Property Damage Analysis
-
-- Read and clean `kerala.csv` dataset
-- Drop invalid or non-numeric rows
-- Generate correlation heatmap
-- Visualize data using Seaborn
-
----
-
-## Technologies Used
-
-- Python 3.11
+- Python 3.x
 - NumPy
 - Pandas
 - Matplotlib
 - Seaborn
 - yFinance
-- scikit-learn
-- SQL (SQLite-style)
+- Jupyter Notebook / VS Code
+
+---
+
+## Assignments Overview
+
+### Assignment 1 – Python & NumPy Practice
+- Matrix multiplication using NumPy
+- Character checking in arrays using `isdigit()`, `islower()`, `isupper()`
+- Array reshaping, subtraction, and flattening
+- Element-wise matrix operations
+
+### Assignment 2 – Data Processing & CSV Handling
+- Reading CSV (`kerala.csv`)
+- Handling missing and duplicate values
+- Data filtering and aggregation
+- Basic statistics using Pandas
+
+### Assignment 3 – Real-World Data Analysis
+- Stock Market Analysis
+  - Download stock data using yFinance
+  - Moving averages and daily returns
+  - Trend classification and visualization
+  - Correlation analysis using heatmaps
+
+### Assignment 4 – Regression & Machine Learning
+- Applied Regression Models:
+  - Simple Linear Regression
+  - Ridge Regression
+  - Lasso Regression
+- Datasets used:
+  - California Housing
+  - Medical Costs
+  - Startup Profits
+  - Beer Consumption vs Climate
+
+---
+
+## Mini Projects
+
+- Stock Analysis on Apple, Google, Amazon, Microsoft
+- Kerala Flood Impact Analysis
 
 ---
 
 ## How to Run
 
-Install required libraries (if not already installed):
+To run any `.py` script:
 
 ```bash
-pip install numpy pandas matplotlib seaborn yfinance scikit-learn
-````
-Run Files
+python filename.py
